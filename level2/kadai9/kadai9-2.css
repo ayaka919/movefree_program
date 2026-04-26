@@ -1,0 +1,52 @@
+body {
+    font-family: "MS 明朝", "MS Mincho", serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: rgba(100, 149, 237, 0.1); 
+}
+
+h1 {
+    color: #333; 
+    font-size: 40px; 
+    text-align: center;
+    border-bottom: 3px solid #4a90e2; 
+    padding-bottom: 10px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block; 
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccd6e0;
+    border-radius: 10px;
+    box-sizing: border-box; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px; 
+    border-radius: 10px; 
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: skyblue; 
+}
