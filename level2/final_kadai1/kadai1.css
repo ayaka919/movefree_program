@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: "Noto Sans JP", sans-serif;
+    line-height: 1.8;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #cccccc;
+}
+
+p,
+ul,
+table,
+form {
+    max-width: 800px;
+}
+
+.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e5e5e5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font: inherit;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
